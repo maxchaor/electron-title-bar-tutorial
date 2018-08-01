@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="./home.css">
+  </head>
+  <body>
+    <div class="title-bar">
+      <div class="menu-button-container">
+        <button 
+          id="menu-button"
+          class="menu-button"
+        />
+      </div>
+      <div class="app-name-container">
+        <p>App Name</p>
+      </div>
+      <div class="window-controls-container">
+        <button 
+          id="minimize-button"
+          class="minimize-button"
+        />
+        <button 
+          id="min-max-button"
+          class="min-max-button"
+        />
+        <button 
+          id="close-button"
+          class="close-button"
+        />
+      </div>
+    </div>
+    <h1>Hello World!</h1>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    We are using Node.js <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.
+
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

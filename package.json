@@ -1,0 +1,21 @@
+{
+  "name": "electron-title-bar-tutorials",
+  "version": "1.0.0",
+  "description": "A basic example of creating custom title bars with Electron.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Cameron Adams",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  }
+}

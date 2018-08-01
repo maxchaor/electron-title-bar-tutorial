@@ -1,0 +1,94 @@
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.title-bar {
+  -webkit-app-region: drag;
+  margin: 0;
+  display: flex;
+  background-color: grey;
+  width: 100%;
+  height: 50px;
+}
+
+.menu-button-container {
+  background-color: white;
+  border: 0.5px red solid;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.app-name-container {
+  background-color: white;
+  border: 0.5px red solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.window-controls-container {
+  background-color: white;
+  border: 0.5px red solid;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.menu-button {
+  -webkit-app-region: no-drag;
+  background-color: green;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.menu-button:hover {
+  background-color: grey;
+}
+
+.minimize-button {
+  -webkit-app-region: no-drag;
+  background-color: green;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.minimize-button:hover {
+  background-color: grey;
+}
+
+.min-max-button {
+  -webkit-app-region: no-drag;
+  background-color: blue;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.min-max-button:hover {
+  background-color: grey;
+}
+
+.close-button {
+  -webkit-app-region: no-drag;
+  background-color: red;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.close-button:hover {
+  background-color: grey;
+}
+
