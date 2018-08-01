@@ -1,4 +1,4 @@
-# Electron Windows Custom Title Bar Example
+# Electron Custom Title Bar Example
 
 The code from my YouTube video about creating a custom title bar in an Electron
 Windows application! Feel free to talk trash about my bad styling as I am not a 
