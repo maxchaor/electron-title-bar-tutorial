@@ -1,3 +1,4 @@
+const { app } = require('electron')
 const template = [
   {
     label: 'File',
